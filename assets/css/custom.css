@@ -1,0 +1,70 @@
+.vlt-custom--8131 {
+	bottom: -250px;
+	left: -200px;
+	max-width: 550px;
+}
+
+.vlt-custom--1451 {
+	top: -25px;
+	left: -30px;
+	width: 256px;
+	height: 208px;
+}
+
+@media only screen and (max-width: 575px) {
+	.vlt-custom--1451 {
+		top: -100px;
+		left: -100px;
+	}
+}
+
+.vlt-custom--1512 {
+	bottom: -28vw;
+	left: 50vw;
+	width: 75vw;
+	height: 75vw;
+	background-size: cover;
+}
+
+.vlt-custom--4124 {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 40vw;
+	height: 100%;
+	background-position: top left;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+	.vlt-custom--4124 {
+		right: 0;
+		width: 50vw;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.vlt-custom--4124 {
+		right: -50vw;
+		width: 100vw;
+	}
+}
+
+.vlt-custom--1259 {
+	top: -20px;
+	right: -5px;
+	width: 256px;
+	height: 208px;
+}
+
+.vlt-custom--2355 {
+	bottom: -250px;
+	left: 0;
+	width: 389px;
+	height: 550px;
+}
+video {
+	position:absolute;
+	object-fit:cover;
+	top:0;
+}
