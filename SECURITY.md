@@ -1,5 +1,12 @@
 # Security Policy
 
+## Project Information
+
+**Project:** MSI Claw AIO Tweaker  
+**Repository:** https://anonymousik.is-a.dev/msi-claw-aio-tweaker  
+**GitHub:** https://github.com/anonymousik/msi-claw-aio-tweaker  
+**Maintainer:** Anonymousik (SecFERRO Division)
+
 ## 🛡️ Security Overview
 
 MSI Claw AIO Tweaker takes security seriously. This document outlines our security policies, threat model, and vulnerability reporting procedures.
