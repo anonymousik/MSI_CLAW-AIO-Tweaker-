@@ -332,11 +332,12 @@
             <div style="color: var(--success)">[OK] Fetching repository...</div>
             <div style="color: var(--success)">[OK] Verifying hash integrity...</div>
             <div style="color: var(--primary)">[+] MSI Claw A1M Detected</div>
-            <div style="color: #fff; margin-top: 15px;">Aby zainstalować, skopiuj komendę:</div>
+            <div style="color: #fff; margin-top: 15px;">Otwórz PowerShell jako Administrator i wykonaj:</div>
           </div>
           
           <div class="copy-box">
-            <span class="code-string" id="install-cmd">irm "https://github.com/anonymousik/MSI_CLAW-AIO-Tweaker-" | iex</span>
+            <span class="code-string" id="install-cmd">Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+irm https://raw.githubusercontent.com/anonymousik/msi-claw-aio-tweaker/main/install.ps1 | iex</span>
             <button class="btn-outline" style="padding: 5px 10px; font-size: 0.8rem;" onclick="copyToClipboard('install-cmd')">
               <i class="fas fa-copy"></i>
             </button>
@@ -411,7 +412,7 @@
 
     // --- 1. Dynamic GitHub Stats with Caching (Prevents API Limits) ---
     const REPO_OWNER = 'anonymousik';
-    const REPO_NAME = 'MSI_CLAW-AIO-Tweaker-';
+    const REPO_NAME = 'msi-claw-aio-tweaker';
     const CACHE_KEY = 'github_stats_cache';
     const CACHE_DURATION = 3600000; // 1 godzina w ms
 
@@ -520,4 +521,5 @@ ssh -t $USER@$TARGET_IP "powershell -NoProfile -Command \\"
   </script>
 </body>
 </html>
+
 
