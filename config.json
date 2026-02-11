@@ -2,7 +2,7 @@
   "version": "5.0.0",
   "build_date": "2026-02-10",
   "metadata": {
-    "author": "Enhanced by AI Analysis 2026",
+    "author": "Anonymousik",
     "organization": "SecFERRO DIVISION",
     "license": "Educational Use Only"
   },
@@ -62,10 +62,10 @@
   },
   "module_hashes": {
     "note": "SHA256 hashes for module integrity verification",
-    "Diagnostics.psm1": "",
-    "Utils.psm1": "",
-    "Optimization.psm1": "",
-    "Backup.psm1": ""
+    "Diagnostics.psm1": "90763acaa4451bf3f31cd17dec0dae2cddab130186411d6815827d38a719cb9c",
+    "Utils.psm1": "0a7de77679be3136168a2b390260afc37527e267414fce1af93238ec0213b039",
+    "Optimization.psm1": "941c2a2b42267cb72f70da308390383f369c425b2608f6e8b4f95cb4d0019cf8",
+    "Backup.psm1": "e3bdb7bcd5e33147eaad3111b076a25267e583b65e782ebfa2b6741d4f5884cb"
   },
   "update_server": {
     "version_check_url": "https://raw.githubusercontent.com/anonymousik/msi-claw-aio-tweaker/main/version.json",
